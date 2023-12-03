@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/AeiqMDZ.png" alt="Traffic Examination"/>
 </p>
 
-<h1>Network-File-Shares-and-Permissions</h1>
+<h1>Network File Shares and Permissions</h1>
 
 In this tutorial, we will be setting up shared network folders & permissions. We will be using our two virtual machines we used in the previous two labs, [here](https://www.github.com/anbere/configure-ad/) is where we started. We will create folders
 in the DC-1 Virtual Machine and share them on the network with different permission settings. Only designated people will be able to access/read/write certain files and folders.<br />
