@@ -65,6 +65,23 @@ in the DC-1 Virtual Machine and share them on the network with different permiss
 
   ![image](https://github.com/anbere/network-fileshare-permissions/assets/90169033/04733081-91c9-4802-93a7-2d1c35d9c27a)
 
+  To test this permission, we are going to choose another employee in our Active Directory and make them a member of the ACCOUNTANTS security group. Choose any employee then Right click -> Properties -> `Member Of` tab -> Click `Add` -> type 'ACCOUNTANTS' -> click `Check Names` -> Click OK and apply.
+
+  ![image](https://github.com/anbere/network-fileshare-permissions/assets/90169033/090afecf-4cf0-411b-8ef5-215b8a6e1ac5)
+
+  First we will try to access the accounting folder from the currently logged in user in Client-1 and we will see we are denied access because this user is not in the ACCOUNTING security group.
+
+  ![image](https://github.com/anbere/network-fileshare-permissions/assets/90169033/2bec2e68-35a2-4f22-8ea7-30034f0aa700)
+
+  Now logout of this user and login as the user we just added to the ACCOUNTANTS security group.
+
+  ![image](https://github.com/anbere/network-fileshare-permissions/assets/90169033/35d0a9fb-a38e-48c1-b472-b98959512013)
+
+  We can access the accounting folder from this user as well as write new files.
+
+  ![image](https://github.com/anbere/network-fileshare-permissions/assets/90169033/54842106-3699-4eca-9b43-2cb36fb08ec3)
+
+  Congratulations, you have completed and learned the basics of Network File Shares and Permissions!
   
 </p>
 <br />
